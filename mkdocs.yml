@@ -1,27 +1,26 @@
 site_name: Jaewon Lim | Lab Methods Portfolio
 site_url: https://jaewonlim21.github.io/lab-protocol-portfolio/
 site_description: Experimental methods, workflows, and troubleshooting notes for recombinant protein expression and characterization.
-repo_name: jaewonlim21/lab-protocol-portfolio
+repo_name: GitHub
 repo_url: https://github.com/jaewonlim21/lab-protocol-portfolio
 
 theme:
   name: material
   language: en
-  logo: material/book-open-page-variant
-  favicon: assets/favicon.png
+  icon:
+    logo: material/flask-outline
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.top
-    - navigation.indexes
-    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
+    - toc.follow
   palette:
     - scheme: default
       primary: white
-      accent: blue grey
+      accent: black
   font:
     text: Inter
     code: JetBrains Mono
@@ -38,10 +37,8 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
+  - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
 
@@ -49,6 +46,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Protocols:
+      - Overview: protocols/index.md
       - Preparing BMGY/BMMY: protocols/media-prep.md
       - Pichia Expression: protocols/pichia-expression.md
       - Methanol Feeding & OD600: protocols/methanol-feeding.md
