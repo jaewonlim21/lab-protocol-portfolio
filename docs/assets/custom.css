@@ -1,0 +1,12 @@
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+}

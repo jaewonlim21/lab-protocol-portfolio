@@ -1,0 +1,61 @@
+site_name: Jaewon Lim | Lab Methods Portfolio
+site_description: Experimental protocols, workflows, and troubleshooting notes by Jaewon Lim
+site_url: https://YOUR_USERNAME.github.io/lab-protocol-portfolio/
+repo_name: YOUR_USERNAME/lab-protocol-portfolio
+repo_url: https://github.com/YOUR_USERNAME/lab-protocol-portfolio
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Protocols:
+      - Overview: protocols/index.md
+      - Preparing BMGY/BMMY: protocols/media-prep.md
+      - Pichia Expression: protocols/pichia-expression.md
+      - Methanol Feeding & OD600: protocols/methanol-feeding.md
+      - Cell Lysis: protocols/cell-lysis.md
+      - Ni-NTA Purification: protocols/ni-nta.md
+      - SDS-PAGE: protocols/sds-page.md
+      - Western Blot: protocols/western-blot.md
+  - Workflows:
+      - Recombinant Lectin Workflow: workflows/lectin-workflow.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME
+
+extra_css:
+  - assets/custom.css
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
