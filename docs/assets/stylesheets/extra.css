@@ -1,0 +1,69 @@
+.md-grid {
+  max-width: 1400px;
+}
+
+.md-typeset {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 0.4rem;
+}
+
+.md-header {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.md-tabs {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.md-main__inner {
+  margin-top: 1.2rem;
+}
+
+.md-typeset pre > code {
+  border-radius: 12px;
+}
+
+.md-nav__title {
+  font-weight: 700;
+}
+
+.md-sidebar {
+  padding-top: 0.5rem;
+}
+
+.md-sidebar--secondary {
+  opacity: 0.9;
+}
+
+.md-typeset a {
+  font-weight: 500;
+}
+
+.md-typeset table:not([class]) {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+}
+
+.md-typeset > p:first-of-type {
+  font-size: 1.05rem;
+  color: rgba(0, 0, 0, 0.75);
+}
