@@ -1,13 +1,23 @@
 # Protocol Library
 
-Each protocol page follows the same structure:
+This section organizes the core methods used across recombinant protein expression, purification, and analytical workflows.
 
-1. Overview
-2. Purpose
-3. Materials
-4. Procedure
-5. Critical parameters
-6. Troubleshooting
-7. Notes from experience
+## Included areas
 
-This makes the site read like a professional SOP library rather than a casual notebook.
+- media preparation
+- yeast expression workflows
+- methanol feeding and OD tracking
+- cell lysis
+- affinity purification
+- SDS-PAGE
+- western blotting
+
+## Documentation approach
+
+Each protocol page is written to emphasize:
+
+- purpose
+- working principle
+- critical parameters
+- practical execution
+- troubleshooting logic
