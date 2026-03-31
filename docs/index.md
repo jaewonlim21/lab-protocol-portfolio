@@ -1,25 +1,35 @@
-# Experimental Methods & Protocol Portfolio
+# <span class="hero-title">Experimental Methods & Protocol Portfolio</span>
 
-Welcome to **Jaewon Lim's lab methods portfolio**.
+<div class="hero-subtitle">
+A structured research portfolio documenting the way I run, organize, and troubleshoot recombinant protein expression, purification, and characterization workflows in practice.
+</div>
 
-This site is designed as a structured protocol library for recombinant protein expression, purification, and characterization workflows. It focuses on:
+<div class="hero-grid">
+  <div class="hero-card">
+    <h3>What this site shows</h3>
+    <ul>
+      <li>protocols written as reusable lab documentation</li>
+      <li>workflow logic connecting expression, purification, and analysis</li>
+      <li>practical notes based on real experimental runs</li>
+      <li>clean technical communication for research settings</li>
+    </ul>
+  </div>
+  <div class="hero-card">
+    <h3>Core technique areas</h3>
+    <ul>
+      <li>Pichia pastoris expression</li>
+      <li>media preparation and induction</li>
+      <li>cell lysis and Ni-NTA purification</li>
+      <li>SDS-PAGE and western blotting</li>
+      <li>protocol-linked workflow design</li>
+    </ul>
+  </div>
+</div>
 
-- reproducible wet-lab methods
-- decision-ready troubleshooting notes
-- practical parameters used in real runs
-- clean research documentation
+## Why this portfolio exists
 
-## Core technique areas
+Instead of listing methods only as keywords on a resume, this site shows how each technique is organized, executed, and interpreted in a working research environment.
 
-- Pichia pastoris expression
-- media preparation and induction workflows
-- cell lysis and affinity purification
-- SDS-PAGE and western blotting
-- protocol-linked workflow documentation
+## What to explore
 
-## Why this site exists
-
-Instead of listing techniques only on a CV, this portfolio shows how each method is organized, executed, and interpreted in practice.
-
-!!! note
-    This portfolio is intended for professional presentation. Remove any confidential information, internal passwords, room-specific access notes, or lab-restricted details before publishing publicly.
+Start with the **Protocols** section for individual methods, then move to **Workflows** to see how those methods connect across an actual experimental pipeline.
