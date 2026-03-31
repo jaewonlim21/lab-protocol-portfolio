@@ -46,7 +46,6 @@ nav:
   - Home: index.md
   - About: about.md
   - Protocols:
-      - Overview: protocols/index.md
       - Preparing BMGY/BMMY: protocols/media-prep.md
       - Pichia Expression: protocols/pichia-expression.md
       - Methanol Feeding & OD600: protocols/methanol-feeding.md
