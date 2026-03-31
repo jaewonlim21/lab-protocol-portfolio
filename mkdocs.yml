@@ -1,15 +1,54 @@
 site_name: Jaewon Lim | Lab Methods Portfolio
-site_description: Experimental protocols, workflows, and troubleshooting notes by Jaewon Lim
-site_url: https://YOUR_USERNAME.github.io/lab-protocol-portfolio/
-repo_name: YOUR_USERNAME/lab-protocol-portfolio
-repo_url: https://github.com/YOUR_USERNAME/lab-protocol-portfolio
-edit_uri: edit/main/docs/
+site_url: https://jaewonlim21.github.io/lab-protocol-portfolio/
+site_description: Experimental methods, workflows, and troubleshooting notes for recombinant protein expression and characterization.
+repo_name: jaewonlim21/lab-protocol-portfolio
+repo_url: https://github.com/jaewonlim21/lab-protocol-portfolio
+
+theme:
+  name: material
+  language: en
+  logo: material/book-open-page-variant
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue grey
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
   - About: about.md
   - Protocols:
-      - Overview: protocols/index.md
       - Preparing BMGY/BMMY: protocols/media-prep.md
       - Pichia Expression: protocols/pichia-expression.md
       - Methanol Feeding & OD600: protocols/methanol-feeding.md
@@ -20,42 +59,3 @@ nav:
   - Workflows:
       - Recombinant Lectin Workflow: workflows/lectin-workflow.md
   - Contact: contact.md
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - tables
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.tabbed:
-      alternate_style: true
-
-plugins:
-  - search
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_USERNAME
-
-extra_css:
-  - assets/custom.css
-
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - content.code.copy
-    - search.suggest
-    - search.highlight
-    - content.action.edit
-  palette:
-    - scheme: default
-      primary: blue grey
-      accent: indigo
